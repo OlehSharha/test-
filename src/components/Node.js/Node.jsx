@@ -28,7 +28,7 @@ export const AboutNode = () => {
                 handleClose();
               }}
             >
-              <p>Close Answers about Node</p>
+              <p>Close answers about Node</p>
             </button>
             <h3>
               1. Що таке файл package.json?
@@ -168,7 +168,7 @@ export const AboutNode = () => {
               handleOpen();
             }}
           >
-            <p>Open Answers About Node</p>
+            <p>Open answers about Node</p>
           </button>
         )
       }
