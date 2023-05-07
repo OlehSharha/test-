@@ -1,1 +1,1 @@
-export * from './AboutNode';
+export * from './Node';
