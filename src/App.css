@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.but {
+  margin-top: 30px;
+  width: 800px;
+  height: 100px;
+  margin-bottom: 30px;
+  background-image: linear-gradient(to right, #ef4a61, #e48a3d, #ec912d, #de561b);
+  box-shadow: 0 4px 15px 0 rgba(243, 120, 125, 0.75);
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 31px;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  width: 799px;
+}
+
+.node {
+  border:3px solid #07d8e7;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+
+.html {
+  border:3px solid #de561b;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}
+
+.angular {
+  border:3px solid #330ddd;
+  margin-bottom: 5px;
+  margin-bottom: 100px;
+  padding: 0px 20px;
+}

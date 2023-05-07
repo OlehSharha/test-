@@ -1,8 +1,17 @@
 import React from 'react';
-import './App.scss';
+import './App.css';
+import { AboutAll } from './components/FIrstAnswer';
+import { AboutAngular } from './components/Angular';
+import { AboutNode } from './components/Node.js/Node';
 
-export const App = () => (
-  <div className="starter">
-    React starter pack
-  </div>
-);
+function App() {
+  return (
+    <div className="App">
+      <AboutAll />
+      <AboutAngular />
+      <AboutNode />
+    </div>
+  );
+}
+
+export default App;
